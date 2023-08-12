@@ -5,11 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSP</title>
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 
 <body>
+    <div id="display">
+        <div id="playerChoice" class="default"></div>
+        <div id="compChoice" class="default"></div>
+    </div>
+    <div id="buttons">
+        <div class="img-container">
+            <img id="ROCK" data-comp-id="0"
+                src="https://www.seekpng.com/png/detail/816-8161371_rock-paper-scissor-icon-png.png" alt="ROCK" />
+        </div>
 
+        <div class="img-container">
+            <img id="PAPER" data-comp-id="1"
+                src="https://www.pngitem.com/pimgs/m/266-2667252_transparent-rock-paper-scissors-clipart-rock-paper-scissors.png"
+                alt="PAPER">
+        </div>
+
+        <div class="img-container">
+            <img id="SCISSOR" data-comp-id="2"
+                src="https://www.seekpng.com/png/detail/111-1114370_rock-paper-scissors-rock-paper-scissors-clipart.png"
+                alt="SCISSOR">
+        </div>
+
+    </div>
+    <div id="scores">
+        <div id="playerScore" class="default"></div>
+        <div id="compScore" class="default"></div>
+    </div>
 </body>
 
 </html>
